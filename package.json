@@ -13,7 +13,8 @@
   ],
   "scripts": {
     "test-server": "gulp test-server &",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.10.0"
@@ -39,5 +40,20 @@
     "psi": "^0.1.1",
     "run-sequence": "^1.0.1",
     "serve-favicon": "^2.3.0"
-  }
+  },
+  "description": "> Helping you select an MV\\* framework",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prakasa1904/todomvc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prakasa1904/todomvc/issues"
+  },
+  "homepage": "https://github.com/prakasa1904/todomvc#readme"
 }

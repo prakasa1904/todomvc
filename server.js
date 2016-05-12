@@ -7,6 +7,7 @@ var learnJson = require('./learn.json');
 var app = module.exports = express();
 var favicon = require('serve-favicon');
 
+app.listen(7000); // Listen Node JS Server at port 7000 [envi prakasa@devetek.com]
 app.use(express.static(__dirname));
 app.use(favicon(__dirname + '/site-assets/favicon.ico'));
 
